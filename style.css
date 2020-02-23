@@ -140,14 +140,14 @@ footer ul {
     float: left;
     padding-left: 0px;
     
-    }
+}
     
-    footer ul li {
+footer ul li {
     
     display: block;
     padding: 0 0 10px 0;
     
-    }
+}
     
     footer ul li p {
     
@@ -158,9 +158,9 @@ footer ul {
     color: #ffffff;
     text-transform: uppercase;
     
-    }
+}
     
-    footer ul li a {
+footer ul li a {
     
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
@@ -169,71 +169,66 @@ footer ul {
     color: #ffffff;
     text-transform: uppercase;
     text-decoration: none;
-    
-    }
+}
 
-    .footer-sm {
-        width: 40px;
-        float: right;
-    }
+.footer-sm {
+    width: 40px;
+    float: right;
+}
 
-    .footer-info {
-        font-family: "Open Sans", sans-serif;
-        text-align: start;
-        font-size: 13px;
-    }
+.footer-info {
+    font-family: "Open Sans", sans-serif;
+    text-align: start;
+    font-size: 13px;
+}
 
-    footer .footer-sm img{
-        width: 100%;
-        margin-bottom: 10px;
-        
-        
-    }
+footer .footer-sm img{
+    width: 100%;
+    margin-bottom: 10px;
+}
 
-    @media only screen and (min-width: 950px) {
-        
-   
-      
-      header h2 {
-            padding: 20px 40px;
-            font-size: 24px;
-            margin-top: 20px;
-      
-      }
-      
-      header nav ul li {
-      
-             padding: 16px 42px;
-      
-      }
-
-      .index-meist {
+@media only screen and (min-width: 950px) {
+    header h2 {
         padding: 20px 40px;
+        font-size: 24px;
+        margin-top: 20px;
+  
+  }
+  
+  header nav ul li {
+  
+         padding: 16px 42px;
+  
+  }
+
+    .index-meist {
         display: inline-flex;
         flex-direction: row-reverse;
-        width: 100%;
-      }
+        justify-content: space-around;
+        width: 90%;
+        font-size: 15px;
+    }
 
-      .banner{
-          padding: 20px
-          display:inline;        
-      }
+    .banner{
+        padding: 20px;
+        display:inline;        
+    }
 
-      .banner-img {
+    .banner-img {
         display:block;
         margin:auto;
         position: relative;
         background-position: center;
         width: auto;
-          
-          
-      }
+        
+        
+    }
 
-      .container {
+    .container {
         position: relative;
         text-align: center;
     }
-    
+
     .container img {
         display: flex;
         flex-direction: column;
@@ -246,4 +241,7 @@ footer ul {
         justify-content: space-around;
         flex-direction: row;
     }
-}
+
+}        
+   
+    
