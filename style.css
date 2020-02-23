@@ -210,8 +210,8 @@ footer .footer-sm img{
     }
 
     .banner{
+        display:inline;
         padding: 20px;
-        display:inline;        
     }
 
     .banner-img {
